@@ -1,0 +1,70 @@
+1. Diagramar una clase llamada producto, con sus atributos y operaciones.
+R=
+PRODUCTO
+---------
+ID
+NOMBRE
+DESCRIPCION
+PRECIO
+---------
+AGREGAR
+ACTUALIZAR
+BORRAR
+
+===========================================================================================
+2. ¿Qué es un jar y para qué sirve?
+
+R=ES UN ARCHIVO EJECUTABLE DE JAVA CON EL CUAL SE PUEDEN EJECUTAR LAS APLICACIONES.
+USO: DESPLEGAR LAS APLICACIONES.
+
+===========================================================================================
+3. ¿Qué es el patrón MVC?
+
+R=ES EL MODELO VISTA CONTROLADOR.
+
+===========================================================================================
+4. Declarar un array y asignarle valores.
+R=
+ Scanner lector = new Scanner(System.in);
+        int lista[]=new int[20];
+        int i,lim;
+        System.out.println("Ingresa el limite de arreglo");
+        lim=lector.nextInt();
+        for(i=0;i<lim;i++){
+            System.out.println("X["+(i+1)+"]=");
+            lista[i]=lector.nextInt();
+        }
+        for(i=0;i<lim;i++){
+            System.out.print(lista[i]+", ");
+            
+        }
+==============================================================================================
+4.1 ¿Cómo se obtiene el primer valor del array?
+
+Se accede a cada elemento individual del array mediante un número entero  0
+==============================================================================================
+4.2 ¿y el último?
+ lengt-1
+==============================================================================================
+4.3 ¿Con qué estructura de control se itera/recorre un array? de un ejemplo.
+
+ for (int i = 0; i < numeros.length; i++) {
+            contador[numeros[i]]+=1;
+
+==============================================================================================
+5. En la empresa Apple Inc. necesitan un software para gestionar sus dispositivos, es necesario hacer un crud de la tabla
+ dispositivo con lo campos, nombre, precio, tipo. Se tiene que mostrar la lista de productos y una opción para registrar,
+ actualizar y borrar dispositivos.
+
+Usar Procedures para las operaciones CRUD
+
+
+=============================================================================================
+create databases productos,
+create table dispositivos(id int, nombre varchar(30), precio int, tipo varchar(50));
+insert into dispositivos values (1,'ipad',3000,'tablet');
+
+
+
+
+
